@@ -1,0 +1,251 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+    font-weight: normal;
+}
+
+header {
+    cursor: default;
+    margin: 0 auto;
+    height: 44px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.icons {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background: none;
+    border: none;
+}
+
+
+
+
+
+
+
+.container {
+    margin: 0 auto;
+    max-width: 908px;
+    padding: 0 20px;
+}
+
+.text_box {
+    padding-top: 50px;
+    padding-bottom: 65px;
+    text-align: center;
+}
+
+.text_box h1 {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 43px;
+    color: #000000;
+}
+
+.text_box p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.shop_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 76px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #0071E3;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.shop_inf {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 45px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #000000;
+    width: 135px;
+
+}
+
+.inf_box {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 39px;
+}
+
+.collor_box {
+    width: 321px;
+}
+
+.ssd_box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    gap: 3px;
+}
+
+.ssd_box button {
+    height: 57px;
+    width: 321px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+}
+
+.collor_box button {
+    width: 155px;
+    height: 42px;
+    background: #CFE7FF;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+}
+
+.s1 {
+    /* color: white; */
+    background: #0071E3;
+}
+
+.ssd_box span {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ssd_box button:hover {
+    border: 2px solid #0071E3;
+}
+
+.ssd_box button:focus {
+    border: 3px solid #0071E3;
+}
+
+.collor_box button:focus {
+    color: white;
+    background: #0071E3;
+}
+
+.collor_box button:hover {
+    border: 2px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spm{
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    text-align-last: center;
+    background-color: #CFD8DC;
+    color: #fff;
+    cursor: pointer;
+    padding: 14px;
+    width: 500PX;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+    border-radius: 15PX;
+}
+
+.active, .accordion:hover {
+    background-color: #607D8B;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #fff;
+	font-size: 18px;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    width: 400px;
+	color: #212121;
+    background-color: #f6e8e8;
+    max-height: 0px;
+    overflow: hidden;
+    border-radius: 0 0 15px 15px;
+    transition: max-height 0.3s ease-out;
+}
+
+.panel p {
+    padding: 15px;
+}

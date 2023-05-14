@@ -1,0 +1,30 @@
+/* Планшетов X */
+@media (max-width: 1200px) {
+   
+}
+
+@media (max-width: 992px) {
+      .text_box h1 {
+        font-weight: 700;
+    font-size: 35px;
+    } 
+    .text_box p {
+    font-size: 15px;
+}
+.container {
+    max-width: 730px;
+
+}
+}
+
+/* Телефоны Х */
+@media (max-width: 768px) {
+    .shop_box {
+        flex-direction: column;
+    }
+}
+
+/* Телефоны Y */
+@media (max-width: 576px) {
+   
+}
